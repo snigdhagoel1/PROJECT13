@@ -28,7 +28,7 @@ rabbit.addImage(rabbitImg);
 function draw() {
   background(0);
   
-  // boy moving on Xaxis with mouse'
+
   rabbit.x = World.mouseX;
   
   edges= createEdgeSprites();
@@ -44,6 +44,8 @@ function draw() {
    createApples();
     } else if (select_sprites == 2) {
     createOrange();
+    createApples();
+    createRed();
     }
    }
 }
